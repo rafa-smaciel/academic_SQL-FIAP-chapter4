@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1BB35EF4-4F66-3D84-EAA5-EE10DB3243E0" name="T_SIP_FUNCIONARIO">
+<createdBy>Rafael</createdBy>
+<createdTime>2022-10-28 01:06:03 UTC</createdTime>
+<ownerDesignName>Exemplo1</ownerDesignName>
+<engineerTo>
+<item key="DB7E9129-B1E6-EF0C-1220-C521D24F3EBA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nr_matricula" id="45B00450-1953-1434-B3E3-69D49CF7E0AF">
+<createdBy>Rafael</createdBy>
+<createdTime>2022-10-28 01:07:52 UTC</createdTime>
+<ownerDesignName>Exemplo1</ownerDesignName>
+<engineerTo>
+<item key="DB7E9129-B1E6-EF0C-1220-C521D24F3EBA" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_funcionario" id="0CB45D2F-50F3-3F8F-E2E8-3643381EB4B7">
+<createdBy>Rafael</createdBy>
+<createdTime>2022-10-28 01:09:28 UTC</createdTime>
+<ownerDesignName>Exemplo1</ownerDesignName>
+<engineerTo>
+<item key="DB7E9129-B1E6-EF0C-1220-C521D24F3EBA" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_nascimento" id="7DA4EEA3-55EE-456B-6BAF-3D4AE0723473">
+<createdBy>Rafael</createdBy>
+<createdTime>2022-10-28 01:10:01 UTC</createdTime>
+<ownerDesignName>Exemplo1</ownerDesignName>
+<engineerTo>
+<item key="DB7E9129-B1E6-EF0C-1220-C521D24F3EBA" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_admissao" id="8375860C-3B53-005E-418F-6081FE0D5E78">
+<createdBy>Rafael</createdBy>
+<createdTime>2022-10-28 01:10:22 UTC</createdTime>
+<ownerDesignName>Exemplo1</ownerDesignName>
+<engineerTo>
+<item key="DB7E9129-B1E6-EF0C-1220-C521D24F3EBA" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_salario" id="3995FAF8-B86B-5632-05F0-1C5DCD108A6E">
+<createdBy>Rafael</createdBy>
+<createdTime>2022-10-28 01:10:36 UTC</createdTime>
+<ownerDesignName>Exemplo1</ownerDesignName>
+<engineerTo>
+<item key="DB7E9129-B1E6-EF0C-1220-C521D24F3EBA" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="88C3F204-E2E4-37BA-A64B-28B0D67636A7" name="T_SIP_FUNCIONARIO PK">
+<createdBy>Rafael</createdBy>
+<createdTime>2022-10-28 01:08:18 UTC</createdTime>
+<ownerDesignName>Exemplo1</ownerDesignName>
+<engineerTo>
+<item key="DB7E9129-B1E6-EF0C-1220-C521D24F3EBA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>45B00450-1953-1434-B3E3-69D49CF7E0AF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
